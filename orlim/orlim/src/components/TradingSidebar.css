@@ -1,0 +1,18 @@
+.pair-tab-item {
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.pair-tab-item:hover {
+  background-color: var(--bs-gray-100);
+}
+
+.pair-tab-item.active {
+  background-color: var(--bs-primary);
+  color: white;
+}
+
+.pair-tab-item.active .text-muted {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
